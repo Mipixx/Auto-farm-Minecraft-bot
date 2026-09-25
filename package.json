@@ -1,0 +1,20 @@
+{
+  "name": "mineflayer-bot",
+  "version": "1.0.0",
+  "description": "Mineflayer bot for Minecraft 26.1",
+  "main": "bot.js",
+  "scripts": {
+    "start": "./start.sh",
+    "offline": "MC_AUTH=offline ./start.sh"
+  },
+  "keywords": [
+    "mineflayer",
+    "minecraft"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mineflayer": "github:PrismarineJS/mineflayer",
+    "mineflayer-pathfinder": "^2.4.5"
+  }
+}
